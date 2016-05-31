@@ -1,0 +1,37 @@
+* 	{
+	font-family: 'Raleway', sans-serif;
+}
+body {
+	background-color: #F0ECEB;
+	padding: 5px;
+}
+.heading {
+	color: black;
+	margin: 0px;
+	padding: 0px;
+}
+.header-center {
+	text-align: center;
+	margin: 0px 25px;
+	padding: 5px;
+	color:#d0d0d0;
+}
+.nav {
+	margin: 0px 5px;
+	color:#d0d0d0;
+}
+.navbar {
+	background-color: #F0ECEB;
+	border-radius: 10px;
+	border: none;
+}
+a:hover {
+	text-decoration: none;
+	color: red;
+}
+.counter {
+	height:1em;
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+}

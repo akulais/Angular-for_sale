@@ -1,0 +1,58 @@
+<html>
+	<head>
+	    
+	    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+	    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular-route.min.js"></script>
+	    <!-- <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script> -->
+	    
+	    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.4.7/angular-filter.js"></script>
+	    
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-moment/1.0.0-beta.5/angular-moment.min.js"></script>
+	    
+	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+		
+		<script src='angular/main.js'></script>
+		<link rel='stylesheet' href='./static/base.css'>
+		<link rel="icon" href='./../static/images/home_icon.png'/>
+
+	</head>
+
+
+	<body ng-app="house_app" class="container-fluid">
+
+		<nav class="navbar navbar-inverse">
+	
+	    		<div class="navbar-header">
+	    			<div class="header-center">
+		      			<h1 class="heading">Zoned B4 commercial property</h1>
+		      			<h6 class="heading">20640 Oakdale Dr., Robertsdale, AL 36567</h6>
+		      		</div>
+	    		</div>
+	    	
+		    	<ul class="nav navbar-nav navbar-right">
+		      		<li><a href="/#/home">Home</a></li>
+		     	 	<li><a href="/#/specs">Specs</a></li>
+		      		<li><a href="/#/nearby">What's around</a></li>
+		      		<li><a href="http://www.zillow.com/homedetails/20640-Oakdale-Dr-Robertsdale-AL-36567/72730480_zpid/">See our posting on Zillow</a></li>
+		    	</ul>
+
+		</nav>
+
+		<div ng-view="">
+	    
+		</div>
+
+		<div class="counter">
+			<a href="http://www.simplehitcounter.com" target="_blank">
+				<img src="http://simplehitcounter.com/hit.php?uid=2111483&f=16776960&b=0" alt="web counter"></a><br>
+			<a href="http://www.simplehitcounter.com" target="_blank" style="text-decoration:none;">web counter</a>
+		</div>
+
+	</body>
+
+</html>
