@@ -1,8 +1,9 @@
 * 	{
 	font-family: 'Raleway', sans-serif;
+	color: black;
 }
 body {
-	background-color: #F0ECEB;
+	background-color: #F5F5F0;
 	padding: 5px;
 }
 .heading {
@@ -18,20 +19,33 @@ body {
 }
 .nav {
 	margin: 0px 5px;
-	color:#d0d0d0;
+	color:#d0d0d0 !important;
+}
+.nav li a:hover {
+	color: black !important;
+	text-decoration: none !important
 }
 .navbar {
-	background-color: #F0ECEB;
+	background-color: #F5F5F0;
 	border-radius: 10px;
 	border: none;
+	/*display: block;*/
 }
 a:hover {
 	text-decoration: none;
-	color: red;
+	/*color: black;*/
 }
 .counter {
 	height:1em;
 	width: 100px;
 	margin: 0 auto;
 	margin-top: 20px;
+}
+.b4-header {
+	display: inline-flex;
+	padding-top: 25px;
+}
+.b4-header h3 {
+	width: auto;
+	padding: 25px 40px;
 }
