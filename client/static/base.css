@@ -1,21 +1,9 @@
 * 	{
-	font-family: 'Raleway', sans-serif;
-	color: black;
+	font-family: "Arial", sans-serif;
 }
 body {
 	background-color: #F5F5F0;
 	padding: 5px;
-}
-.heading {
-	color: black;
-	margin: 0px;
-	padding: 0px;
-}
-.header-center {
-	text-align: center;
-	margin: 0px 25px;
-	padding: 5px;
-	color:#d0d0d0;
 }
 .nav {
 	margin: 0px 5px;
@@ -29,23 +17,14 @@ body {
 	background-color: #F5F5F0;
 	border-radius: 10px;
 	border: none;
-	/*display: block;*/
 }
 a:hover {
 	text-decoration: none;
-	/*color: black;*/
-}
-.counter {
-	height:1em;
-	width: 100px;
-	margin: 0 auto;
-	margin-top: 20px;
 }
 .b4-header {
 	display: inline-flex;
-	padding-top: 25px;
+	padding-top: 15px;
 }
-.b4-header h3 {
-	width: auto;
-	padding: 25px 40px;
+.b4-header h1 {
+	padding: 0px 40px;
 }
