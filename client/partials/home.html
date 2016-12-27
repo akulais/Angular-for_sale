@@ -1,129 +1,104 @@
 <title>Home page</title>
 <link rel='stylesheet' href='./static/home.css'>
-     <script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
 
 	<div ng-controller='homeController'>
-    <div id="top-row">   
-        <span class="weather"><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:36567.1.99999&bannertypeclick=wu_blueglass" title="Robertsdale, Alabama Weather Forecast" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_blueglass&airportcode=KNBJ&ForcedCity=Robertsdale&ForcedState=AL&zip=36567&language=EN" alt="Find more about Weather in Robertsdale, AL" width="160" /></a><br><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:36567.1.99999&bannertypeclick=wu_blueglass" title="Get latest Weather Forecast updates" target="_blank">Click for weather forecast</a></span>
+        
+        <div id="top-row">   
+      		<div id="myCarousel" class="carousel slide" data-ride='carousel'>
+<!-- Indicators -->
+        		<ol class="carousel-indicators">
+    		      	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    		      	<li data-target="#myCarousel" data-slide-to="1"></li>
+    		      	<li data-target="#myCarousel" data-slide-to="2"></li>
+    		      	<li data-target="#myCarousel" data-slide-to="3"></li>
+    		      	<li data-target="#myCarousel" data-slide-to="4"></li>
+    		      	<li data-target="#myCarousel" data-slide-to="5"></li>
+    		      	<li data-target="#myCarousel" data-slide-to="6"></li>
+    		      	<li data-target="#myCarousel" data-slide-to="7"></li>
+        		</ol>
 
-  		<div id="myCarousel" class="carousel slide">
-    <!-- Indicators -->
-    		<ol class="carousel-indicators">
-		      	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		      	<li data-target="#myCarousel" data-slide-to="1"></li>
-		      	<li data-target="#myCarousel" data-slide-to="2"></li>
-		      	<li data-target="#myCarousel" data-slide-to="3"></li>
-		      	<li data-target="#myCarousel" data-slide-to="4"></li>
-		      	<li data-target="#myCarousel" data-slide-to="5"></li>
-		      	<li data-target="#myCarousel" data-slide-to="6"></li>
-		      	<li data-target="#myCarousel" data-slide-to="7"></li>
-    		</ol>
+<!-- Wrapper for slides -->
+            	<div class="carousel-inner" role="listbox" >
+              		
+                    <div class="item active b4_car">
+                		<img src="./static/images/front_1.jpg" alt="front">
+                		<div class="carousel-caption">
+                	        <h3>Welcome home</h3>
+        	        		<p>This is the East side of the property facing the front of the home(North facing).</p>
+        	      		</div>
+              		</div>
 
-    <!-- Wrapper for slides -->
-    	<div class="carousel-inner" role="listbox" >
-      		<div class="item active">
-        		<img src="./static/images/front_1.jpg" alt="front" width="460" height="345">
-        		<div class="carousel-caption">
-        	
-	        	<h3>Welcome home</h3>
-	        		<p>This is the East side of the property facing the front of the home(North facing).</p>
-	      		</div>
-      		</div>
+              		<div class="item b4_car">
+                		<img src="./static/images/front.jpg" alt="front">
+                		<div class="carousel-caption">
+        	        	    <h3>Facing Oakdale Dr.</h3>
+        	        		<p>This is facing Oakdale Dr., over an acre of front yard.</p>
+        	      		</div>
+              		</div>
+            
+              		<div class="item b4_car">
+                		<img src="./static/images/barn_front.jpg" alt="front">
+                		<div class="carousel-caption">
+            	        	<h3>Facing Barn structure</h3>
+        	        		<p>Structure is approx. 60' X 80' freestanding, with electrical wired to code.</p>
+        	      		</div>
+              		</div>
 
-      		<div class="item">
-        		<img src="./static/images/front.jpg" alt="front" width="460" height="345">
-        		<div class="carousel-caption">
+              		<div class="item b4_car">
+                		<img src="./static/images/barn_back.jpg" alt="front">
+                		<div class="carousel-caption">
+        	        	    <h3>South fenceline</h3>
+        	        		<p>Facing the rear of the Barn structure, along the Southern most fenceline.</p>
+        	      		</div>
+              		</div>
 
-	        	<h3>Facing Oakdale Dr.</h3>
-	        		<p>This is facing Oakdale Dr., over an acre of front yard.</p>
-	      		</div>
-      		</div>
-    
-      		<div class="item">
-        		<img src="./static/images/barn_front.jpg" alt="front" width="460" height="345">
-        		<div class="carousel-caption">
+              		<div class="item b4_car">
+                		<img src="./static/images/driveway.jpg" alt="front">
+                		<div class="carousel-caption">
+            	        	<h3>Driveway</h3>
+        	        		<p>Gravel driveway, approx. 100yds.</p>
+        	      		</div>
+              		</div>
 
-	        	<h3>Facing Barn structure</h3>
-	        		<p>Structure is approx. 60' X 80' freestanding, with electrical wired to code.</p>
-	      		</div>
-      		</div>
+              		<div class="item b4_car">
+                		<img src="./static/images/road_access.jpg" alt="front">
+                		<div class="carousel-caption">
+            	        	<h3>Hwy 83/ Foley Beachway Express</h3>
+        	        		<p>Access to I-10 via Hwy 83. I-10 is approx. 1/4mi away.</p>
+        	      		</div>
+              		</div>
 
-      		<div class="item">
-        		<img src="./static/images/barn_back.jpg" alt="front" width="460" height="345">
+              		<div class="item b4_car">
+                		<img src="./static/images/front_west.jpg" alt="front">
+                		<div class="carousel-caption">
+            	        	<h3>Western fenceline, front yard</h3>
+        	        		<p>Facing Oakdale Dr., along western fenceline.</p>
+        	      		</div>
+              		</div>
 
-        		<div class="carousel-caption">
+              		<div class="item b4_car">
+                		<img src="./static/images/back.jpg" alt="front">
+                		<div class="carousel-caption">
+            	        	<h3>Eastern most fenceline, facing South</h3>
+        	        		<p>Facing the Barn Structure, along the Eastern fenceline.</p>
+        	      		</div>
+              		</div>
 
-	        	<h3>South fenceline</h3>
-	        		<p>Facing the rear of the Barn structure, along the Southern most fenceline.</p>
-	      		</div>
-      		</div>
+              	</div>
+            </div>
 
-      		<div class="item">
-        		<img src="./static/images/driveway.jpg" alt="front" width="460" height="345">
-
-        		<div class="carousel-caption">
-
-	        	<h3>Driveway</h3>
-	        		<p>Gravel driveway, approx. 100yds.</p>
-	      		</div>
-      		</div>
-
-      		<div class="item">
-        		<img src="./static/images/road_access.jpg" alt="front" width="460" height="345">
-
-        		<div class="carousel-caption">
-
-	        	<h3>Hwy 83/ Foley Beachway Express</h3>
-	        		<p>Access to I-10 via Hwy 83. I-10 is approx. 1/4mi away.</p>
-	      		</div>
-      		</div>
-
-      		<div class="item">
-        		<img src="./static/images/front_west.jpg" alt="front" width="460" height="345">
-
-        		<div class="carousel-caption">
-
-	        	<h3>Western fenceline, front yard</h3>
-	        		<p>Facing Oakdale Dr., along western fenceline.</p>
-	      		</div>
-      		</div>
-
-      		<div class="item">
-        		<img src="./static/images/back.jpg" alt="front" width="460" height="345">
-
-        		<div class="carousel-caption">
-
-	        	<h3>Eastern most fenceline, facing South</h3>
-	        		<p>Facing the Barn Structure, along the Eastern fenceline.</p>
-	      		</div>
-      		</div>
-
-      	</div>
+            <div id='b4_details'>
+                <p>Well water, 75' depth located on-site (no filtration needed)</p>
+                <p>Avg cost of property /ft<sup>2</sup> increases to $8.00/ft<sup>2</sup> the closer to I-10 the site is located</p>
+            </div>
         </div>
-    
-            <span class="weather"><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:36561.1.99999&bannertypeclick=wu_blueglass" title="Orange Beach, Alabama Weather Forecast" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_blueglass&airportcode=KJKA&ForcedCity=Orange Beach&ForcedState=AL&zip=36561&language=EN" alt="Find more about Weather in Orange Beach, AL" width="160" /></a><br><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:36561.1.99999&bannertypeclick=wu_blueglass" title="Get latest Weather Forecast updates" target="_blank">Click for weather forecast</a></span>
 
-    </div>
-
-        <h1 class="h1-map"><a href="https://www.google.com/maps/@30.6258388,-87.6720938,0a,82.2y,177h,90t/data=!3m4!1e1!3m2!1syRG6h_0zIdfmqT0tbWB4Tg!2e0?source=apiv3">Google Maps street view</a></h1>
+        <h1 class="h1-map">
+            <a target="_blank" href="https://www.google.com/maps/@30.6258388,-87.6720938,0a,82.2y,177h,90t/data=!3m4!1e1!3m2!1syRG6h_0zIdfmqT0tbWB4Tg!2e0?source=apiv3">Google Maps street view</a>
+        </h1>
+        
         <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1464642458902!6m8!1m7!1syRG6h_0zIdfmqT0tbWB4Tg!2m2!1d30.6258387519399!2d-87.67209381115661!3f177!4f0!5f0.7820865974627469" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-
-    <div class="row">
-        <div class="stats">
-            <h3><b>ZONED : B4 commercial</b></h3>
-            <h3>$5.48/ft<sup>2</sup></h3>
-            <h3>2.93 Acres</h3>
-            <hr>
-            <h3>Features 2 structures:</h3>
-            <p>4 bed, 2 bath - 2,084 ft<sup>2</sup> residence (built 2003)</p>
-            <p>30' x 40' freestanding structure (wired to AL code)</p>    
-            <h2>&</h2>
-            <p>Well water, 75' depth located on-site (no filtration needed)</p>
-            <p>Avg cost of property /ft<sup>2</sup> increases to $8.00/ft<sup>2</sup> the closer to I-10 the site is located</p>
-        </div>
-        
-    </div>
 
 	</div>
